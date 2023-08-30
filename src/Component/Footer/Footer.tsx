@@ -4,6 +4,7 @@ import { CgBriefcase, CgGift } from "react-icons/cg";
 import { FiHelpCircle } from "react-icons/fi";
 import lozad from 'lozad';
 import "./Footer.scss";
+import React from "react";
 
 const Footer = () => {
     useEffect(() => {

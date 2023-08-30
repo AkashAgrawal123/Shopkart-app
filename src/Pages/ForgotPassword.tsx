@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import "../Styles/ForgotPassword.scss";
 import { Box, Button, Grid, Paper, TextField, Typography } from "@mui/material";
 import LoadingButton from "@mui/lab/LoadingButton";
-import React from "react";
 
 // snackbar
 import { useSnackbar } from "../Contexts/SnackbarProvider";

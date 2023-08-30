@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./ErrorPage.scss";
 import { FiArrowUpLeft } from "react-icons/fi";
+import React from "react";
 
 const ErrorPage = () => {
   return (
