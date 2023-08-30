@@ -50,7 +50,7 @@ const ForgotPassword = () => {
             <Formik
               validationSchema={schema}
               initialValues={{ email: "" }}
-              onSubmit={async (values) => {
+              onSubmit={async () => {
                 try {
                   setMessage("");
                   setIsLoading(true);
