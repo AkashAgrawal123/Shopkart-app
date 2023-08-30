@@ -1,3 +1,4 @@
+import React from "react";
 import "./SkeletonLoading.scss";
 import "../../styles/globalStyle.scss";
 

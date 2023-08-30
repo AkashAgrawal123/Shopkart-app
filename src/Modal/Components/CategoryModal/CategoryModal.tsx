@@ -4,6 +4,7 @@ import "./CategoryModal.scss";
 import lozad from "lozad";
 import { productTypeData } from "../../../Types/ProductsInterface";
 import useProductStore from "../../../Store/ProductStore";
+import React from "react";
 
 interface CategoryModalProps {
   onClose: () => void;
