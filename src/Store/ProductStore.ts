@@ -43,7 +43,6 @@ const useProductStore = create<ProductStore>(
       wishlistItemsArray: [],
       purchaseItemArray: [],
       activeFilter: null,
-
       firstName: "",
       lastName: "",
       setFirstName: (name: string) => {
@@ -52,7 +51,6 @@ const useProductStore = create<ProductStore>(
       setLastName: (name: string) => {
         items({ lastName: name });
       },
-
       fetchProducts: async () => {
         try {
           const response = await axios.get<Product[]>("/products");
