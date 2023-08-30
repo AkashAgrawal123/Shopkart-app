@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { useAuth } from "../Contexts/AuthContext";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../Styles/ForgotPassword.scss";
 import { Box, Button, Grid, Paper, TextField, Typography } from "@mui/material";
 import LoadingButton from "@mui/lab/LoadingButton";
@@ -50,7 +50,7 @@ const ForgotPassword = () => {
             <Formik
               validationSchema={schema}
               initialValues={{ email: "" }}
-              onSubmit={async (values) => {
+              onSubmit={async () => {
                 try {
                   setMessage("");
                   setIsLoading(true);
