@@ -1,0 +1,11 @@
+$name: header;
+$selector: ".#{$name}";
+
+#{$selector} {
+    padding: 16px 0;
+    &__logo {
+        width: 100%;
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
