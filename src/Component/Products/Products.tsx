@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./products.scss";
 import axios from "axios";
 import Star from "../Star/Star";

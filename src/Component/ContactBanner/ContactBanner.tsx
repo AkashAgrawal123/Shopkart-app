@@ -2,9 +2,9 @@ import { BsTelephone } from "react-icons/bs";
 import "./contactBanner.scss";
 import Select from "react-select";
 import "../../styles/globalStyle.scss";
+import React from "react";
 
 const ContactBanner = () => {
-
   // function
   const goToProductList = () => {
     window.scrollTo({ top: 850, left: 0, behavior: "smooth" });
