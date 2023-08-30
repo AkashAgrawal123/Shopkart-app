@@ -1,7 +1,8 @@
 import ReactDOM from "react-dom/client";
-import App from "./App.tsx";
-import { worker } from "./Mocks/browser.ts";
+import App from "./App";
+import { worker } from "./Mocks/browser";
 import "./index.css";
+import React from "react";
 
 // Used only during development
 if (process.env.NODE_ENV === "development") {
