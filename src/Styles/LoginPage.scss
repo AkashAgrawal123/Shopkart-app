@@ -1,0 +1,219 @@
+.loginPage {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .css-1s1gm10-MuiGrid-root {
+            background-color: #eceff1;
+        }
+
+        .css-1bf0qj2-MuiPaper-root-MuiGrid-root {
+            display: flex;
+            align-items: center;
+        }
+
+        .MuiBox-root {
+            &.css-i9gxme {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        &-logo {
+            margin-bottom: 16px;
+
+            &-image {
+                width: 100px;
+                height: 50px;
+            }
+        }
+
+        h1 {
+            font-size: 18px;
+            font-weight: 800;
+            font-family: 'Nunito', sans-serif;
+            color: #455a64;
+        }
+
+        &-form {
+            margin-top: 24px;
+
+            &--error-message {
+                font-family: 'Nunito', sans-serif;
+                font-size: 15px;
+                color: red;
+                display: flex;
+                justify-content: center;
+            }
+
+            .email-error,
+            .password-error {
+                color: red;
+                font-size: 14px;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 400;
+                margin-left: 8px;
+                margin-top: 4px;
+            }
+        }
+
+        &-email {
+            margin-top: 16px;
+
+            .MuiInputBase-root {
+                border-radius: 16px;
+
+                &:hover {
+                    border-bottom: none;
+                }
+
+                &::before {
+                    border-bottom: none;
+                }
+
+                &::after {
+                    border-bottom: none;
+                }
+            }
+
+            .css-2y464i-MuiInputBase-root-MuiFilledInput-root {
+                color: rgb(69, 90, 100);
+            }
+
+            .css-o943dk-MuiFormLabel-root-MuiInputLabel-root {
+                color: rgb(96, 125, 139);
+            }
+
+            .css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+                color: #013d29
+            }
+
+            .css-2y464i-MuiInputBase-root-MuiFilledInput-root:hover:not(.Mui-disabled, .Mui-error):before {
+                border-bottom: none;
+            }
+        }
+
+        &-password {
+            margin: 24px 0 8px 0;
+
+            .MuiInputBase-root {
+                border-radius: 16px;
+
+                &:hover {
+                    border-bottom: none;
+                }
+
+                &::before {
+                    border-bottom: none;
+                }
+
+                &::after {
+                    border-bottom: none;
+                }
+            }
+
+            .css-zs07ro-MuiInputBase-root-MuiFilledInput-root {
+                color: rgb(69, 90, 100);
+            }
+
+            .css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+                color: #013d29;
+            }
+
+            .css-zs07ro-MuiInputBase-root-MuiFilledInput-root:hover:not(.Mui-disabled, .Mui-error):before {
+                border-bottom: none;
+            }
+
+            .css-2y464i-MuiInputBase-root-MuiFilledInput-root:hover:not(.Mui-disabled, .Mui-error):before {
+                border-bottom: none;
+            }
+        }
+
+        &--forgot-password {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+                padding: 0;
+                margin-left: 12px;
+                padding-right: 4px;
+                padding-left: 4px;
+            }
+
+            .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked {
+                color: #013d29;
+            }
+
+            .css-i4bv87-MuiSvgIcon-root {
+                height: 20px;
+            }
+
+            .css-ahj2mt-MuiTypography-root {
+                font-size: 14px;
+                color: #013d29;
+                font-weight: 700;
+                font-family: 'Nunito', sans-serif;
+            }
+
+            a {
+                font-size: 14px;
+                color: #013d29;
+                font-family: "Nunito", sans-serif;
+                font-weight: 700;
+            }
+        }
+
+        &-signin-button {
+            margin-top: 24px;
+
+            button {
+                // background-color: rgb(41, 98, 255);
+                background-color: #013d29;
+                color: #ffffff;
+                width: 100%;
+                border-radius: 16px;
+                padding: 16px 24px;
+                font-weight: 700;
+                font-family: 'Nunito', sans-serif;
+                box-shadow: none;
+                text-transform: none;
+                font-size: 14px;
+
+                &:hover {
+                    // background-color: rgb(28, 68, 178);
+                    background-color: #013d29;
+                    box-shadow: none;
+                }
+            }
+
+            .css-c32a7e-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.MuiLoadingButton-loading {
+                background-color: #e0e0e0;
+            }
+        }
+
+        &--signup-button {
+            margin-top: 16px;
+
+            .css-1u8pxcv-MuiButtonBase-root-MuiButton-root {
+                padding: 16px 0;
+                font-size: 14px;
+                color: #013d29;
+                font-family: 'Nunito', sans-serif;
+                border-radius: 16px;
+            }
+
+            .css-10vjzfb-MuiButtonBase-root-MuiButton-root {
+                text-transform: none;
+                font-family: 'Nunito', sans-serif;
+                color: #013d29;
+                font-weight: 700;
+                padding: 16px 0;
+                border-radius: 16px;
+            }
+        }
+    }
+}

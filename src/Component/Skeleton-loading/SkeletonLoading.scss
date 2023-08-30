@@ -1,0 +1,111 @@
+$name: shopCart-skeleton__loading;
+$selector: ".#{$name}";
+
+#{$selector} {
+
+    &--wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    &--content {
+        height: 480px;
+        width: 290px;
+    }
+
+    &--card {
+        height: 290px;
+        width: 290px;
+        background-color: #F4F5F6;
+    }
+
+    &--heading-wrapper {
+        display: flex;
+    }
+
+    &--name {
+        height: 24px;
+        width: 156px;
+        background-color: #F4F5F6;
+        margin-top: 12px;
+    }
+
+    &--price {
+        height: 24px;
+        width: 73px;
+        margin-left: 60px;
+        background-color: #F4F5F6;
+        margin-top: 12px;
+    }
+
+    &--description {
+        width: 290px;
+        height: 36px;
+        background-color: #F4F5F6;
+        margin-top: 8px;
+    }
+
+    &--rating {
+        margin-top: 8px;
+        display: flex;
+    }
+
+    &--star-rating {
+        width: 80px;
+        height: 23px;
+        background-color: #F4F5F6;
+    }
+
+    &--reviews {
+        width: 38px;
+        height: 23px;
+        margin-left: 4px;
+        background-color: #F4F5F6;
+    }
+
+    &--button {
+        width: 100px;
+        height: 27px;
+        background-color: #F4F5F6;
+        margin-top: 8px;
+        border-radius: 30px;
+    }
+
+    &.shopCart-skeleton__loading--animation {
+        #{$selector} {
+
+            &--card,
+            &--name,
+            &--price,
+            &--description,
+            &--star-rating,
+            &--reviews,
+            &--button {
+                position: relative;
+                background-color: #F4F5F6;
+                background-image: linear-gradient(to right,
+                        #F4F5F6 0%,
+                        #ededed 30%,
+                        #F4F5F6 60%,
+                        #F4F5F6 100%);
+                background-repeat: no-repeat;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                animation-iteration-count: infinite;
+                animation-name: skeletonshimmer;
+                animation-timing-function: linear;
+            }
+
+            @keyframes skeletonshimmer {
+                0% {
+                    background-position: -350px 0;
+                }
+
+                100% {
+                    background-position: 350px 0;
+                }
+            }
+        }
+    }
+}

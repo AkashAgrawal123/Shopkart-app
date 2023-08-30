@@ -1,0 +1,65 @@
+$name: errorPage;
+$selector: ".#{$name}";
+
+
+#{$selector} {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eceff1;
+    height: 80vh;
+
+    &__wrapper {
+        &--image {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-image {
+            width: 400px;
+            // margin-bottom: 24px;
+            height: 250px;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 800;
+            font-family: 'Nunito', sans-serif;
+            color: rgb(69, 90, 100);
+            margin-bottom: 8px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            color: rgb(69, 90, 100);
+            font-family: 'Nunito', sans-serif;
+        }
+
+        &--button {
+            margin-top: 16px;
+            background-color: #013d29;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 24px;
+            font-size: 20px;
+            border-radius: 30px;
+            border: 1px solid #013d29;
+
+            &:hover {
+                background-color: transparent;
+                color: #013d29;
+                border: 1px solid #013d29;
+            }
+
+            &-icon {
+                margin-right: 8px;
+                height: 20px;
+                width: 20px;
+            }
+        }
+    }
+}
