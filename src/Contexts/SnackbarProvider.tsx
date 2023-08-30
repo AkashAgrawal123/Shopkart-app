@@ -21,7 +21,7 @@ const SnackbarProvider = ({ children }: SnackbarProviderProps) => {
   const [severity, setSeverity] = useState<AlertColor | undefined>(undefined);
 
   const handleClose = (
-    _event: React.SyntheticEvent | React.MouseEvent,
+    event: React.SyntheticEvent | React.MouseEvent,
     reason?: string
   ) => {
     if (reason === "clickway") {

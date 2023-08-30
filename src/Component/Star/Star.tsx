@@ -7,7 +7,7 @@ import { Rating } from "../../Types/StarInterface";
 
 const Star: React.FC<Rating> = ({ stars, reviews }) => {
   const ratingStar = Array.from({ length: 5 }, (_element, index) => {
-    const number = index + 0.5;
+    let number = index + 0.5;
 
     return (
       <span key={index}>
