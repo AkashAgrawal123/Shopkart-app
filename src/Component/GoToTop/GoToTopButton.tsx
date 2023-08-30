@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./GoToTopButton.scss";
 import { FaArrowUp } from "react-icons/fa";
 import "../../styles/globalStyle.scss";
-import React from "react";
 
 const GoToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
