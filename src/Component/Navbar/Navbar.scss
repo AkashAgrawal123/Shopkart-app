@@ -31,6 +31,7 @@ $selector: ".#{$name}";
                     span,
                     div {
                         padding-left: 12px;
+                        transition: color 0.3s linear;
 
                         &:hover {
                             color: #ffa372;
