@@ -9,7 +9,6 @@ import CategoryModal from "../../Modal/Components/CategoryModal/CategoryModal";
 import useProductStore from "../../Store/ProductStore";
 import Search from "../Search/Search";
 import AccountModal from "../../Modal/Components/AccountModal/AccountModal";
-import React from "react";
 
 const Navbar = () => {
   const [isDownArrow, setIsUpArrow] = useState(false);

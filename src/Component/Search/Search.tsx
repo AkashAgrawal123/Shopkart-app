@@ -2,7 +2,6 @@ import { useState } from "react";
 import { BiSearch } from "react-icons/bi";
 import useProductStore from "../../Store/ProductStore";
 import "./Search.scss";
-import React from "react";
 
 const Search = () => {
   // hooks

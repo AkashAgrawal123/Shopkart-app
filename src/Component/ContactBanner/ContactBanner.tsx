@@ -2,7 +2,6 @@ import { BsTelephone } from "react-icons/bs";
 import "./contactBanner.scss";
 import Select from "react-select";
 import "../../styles/globalStyle.scss";
-import React from "react";
 
 const ContactBanner = () => {
   // function
