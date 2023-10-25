@@ -10,12 +10,8 @@ import { BiLeftArrowAlt } from "react-icons/bi";
 
 const Cart = () => {
   // store objects
-  const {
-    cartItemsArray,
-    handleRemoveItem,
-    handleAddItem,
-    handleDeleteItem,
-  } = useProductStore();
+  const { cartItemsArray, handleRemoveItem, handleAddItem, handleDeleteItem } =
+    useProductStore();
 
   const handleIncreaseQuantity = (item: Product) => {
     handleAddItem(item);

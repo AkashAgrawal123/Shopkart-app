@@ -15,11 +15,8 @@ const Wishlist = () => {
   const snackbar = useSnackbar();
 
   // Store functions and data
-  const {
-    wishlistItemsArray,
-    handleAddToCart,
-    handleHeartClick,
-  } = useProductStore();
+  const { wishlistItemsArray, handleAddToCart, handleHeartClick } =
+    useProductStore();
 
   const handleAddItemToCart = (product: any) => {
     handleAddToCart(product);

@@ -62,7 +62,9 @@ const AccountModal: React.FC<AccountModalProps> = ({ onClose, navRef }) => {
             </div>
             <div className="account-modal__wrapper--profile-name">
               <FaRegUserCircle className="account-modal__wrapper--profile-icon" />
-              <p>{firstName} {lastName}</p>
+              <p>
+                {firstName} {lastName}
+              </p>
             </div>
           </div>
           <div className="account-modal__wrapper-email">

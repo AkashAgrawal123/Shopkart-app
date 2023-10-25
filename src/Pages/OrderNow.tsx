@@ -24,10 +24,8 @@ const OrderNow: React.FC = () => {
   let quantityTotal = 0;
 
   // hooks
-  const [
-    selectedOption,
-    setSelectedOption,
-  ] = useState<PaymentOptionField | null>(null);
+  const [selectedOption, setSelectedOption] =
+    useState<PaymentOptionField | null>(null);
 
   // snackbar
   const snackbar = useSnackbar();
@@ -51,8 +49,7 @@ const OrderNow: React.FC = () => {
   const handleItemPurchased = () => {
     setIsSuccessPopUp(true);
     snackbar.success("Item purchased");
-
-  }
+  };
   // coupon code function
   const handleApplyCouponCode = () => {
     if (lowerCaseCouponCode === couponCodeText) {
@@ -422,7 +419,7 @@ const OrderNow: React.FC = () => {
                         }
                         onChange={() =>
                           handleOptionChange(
-                            PaymentOptionField.creditOrDebitCard
+                            PaymentOptionField.creditOrDebitCard,
                           )
                         }
                         required

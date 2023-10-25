@@ -2,18 +2,18 @@ import { useEffect } from "react";
 import "../../styles/globalStyle.scss";
 import { CgBriefcase, CgGift } from "react-icons/cg";
 import { FiHelpCircle } from "react-icons/fi";
-import lozad from 'lozad';
+import lozad from "lozad";
 import "./Footer.scss";
 
 const Footer = () => {
-    useEffect(() => {
-      const observer = lozad(".lozad", {
-        loaded: (el) => {
-          el.classList.add("lozad-loaded");
-        },
-      });
-      observer.observe();
-    }, []);
+  useEffect(() => {
+    const observer = lozad(".lozad", {
+      loaded: (el) => {
+        el.classList.add("lozad-loaded");
+      },
+    });
+    observer.observe();
+  }, []);
   return (
     <>
       <section className="footer">
@@ -189,10 +189,16 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer__wrapper--copyright__middle-menu">
-              <a href="#" className="footer__wrapper--copyright__middle-menu__link">
+              <a
+                href="#"
+                className="footer__wrapper--copyright__middle-menu__link"
+              >
                 Terms of Service
               </a>
-              <a href="#" className="footer__wrapper--copyright__middle-menu__link">
+              <a
+                href="#"
+                className="footer__wrapper--copyright__middle-menu__link"
+              >
                 Privacy & Policy
               </a>
             </div>

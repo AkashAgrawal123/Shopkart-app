@@ -1,5 +1,5 @@
-import '../../src/styles/globalStyle.scss';
-import '../styles/Delivery.scss';
+import "../../src/styles/globalStyle.scss";
+import "../styles/Delivery.scss";
 
 const Delivery = () => {
   return <div>Delivery</div>;
