@@ -116,8 +116,8 @@ $selector: ".#{$name}";
       &-images {
         transition: transform 0.3s ease-in-out;
         transform: scale(1);
-        // height: 290px;
-        // width: 290px;
+        height: 290px;
+        width: 290px;
 
         &:hover {
           transform: scale(1.2);

@@ -26,7 +26,7 @@ const schema = signUpSchema;
 
 // snackbar
 import { useSnackbar } from "../Contexts/SnackbarProvider";
-import useProductStore from "../Store/ProductStore";
+import persistedUseProductStore from "../Store/ProductStore";
 
 const SignUp = () => {
   // variables
@@ -85,8 +85,8 @@ const SignUp = () => {
                       passwordRef.current.value,
                     );
 
-                    useProductStore.getState().setFirstName(values.firstName);
-                    useProductStore.getState().setLastName(values.lastName);
+                    persistedUseProductStore.getState().setFirstName(values.firstName);
+                    persistedUseProductStore.getState().setLastName(values.lastName);
 
                     navigate("/");
                     snackbar.success("Sign up successfully");

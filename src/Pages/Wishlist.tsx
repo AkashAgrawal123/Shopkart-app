@@ -2,7 +2,7 @@ import { BsSuitHeart, BsSuitHeartFill } from "react-icons/bs";
 import Star from "../Component/Star/Star";
 import { Button } from "../Component/Button/Button";
 import "../styles/Wishlist.scss";
-import useProductStore from "../Store/ProductStore";
+import persistedUseProductStore from "../Store/ProductStore";
 import { NavLink } from "react-router-dom";
 import { BiLeftArrowAlt } from "react-icons/bi";
 import { Product } from "../Types/ProductsInterface";
@@ -16,7 +16,7 @@ const Wishlist = () => {
 
   // Store functions and data
   const { wishlistItemsArray, handleAddToCart, handleHeartClick } =
-    useProductStore();
+  persistedUseProductStore();
 
   const handleAddItemToCart = (product: any) => {
     handleAddToCart(product);

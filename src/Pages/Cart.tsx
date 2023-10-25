@@ -1,6 +1,6 @@
 import "../../src/styles/globalStyle.scss";
 import "../styles/Cart.scss";
-import useProductStore from "../Store/ProductStore";
+import persistedUseProductStore from "../Store/ProductStore";
 import Star from "../Component/Star/Star";
 import { AiTwotoneDelete } from "react-icons/ai";
 import { GrFormSubtract, GrFormAdd } from "react-icons/gr";
@@ -11,7 +11,7 @@ import { BiLeftArrowAlt } from "react-icons/bi";
 const Cart = () => {
   // store objects
   const { cartItemsArray, handleRemoveItem, handleAddItem, handleDeleteItem } =
-    useProductStore();
+  persistedUseProductStore();
 
   const handleIncreaseQuantity = (item: Product) => {
     handleAddItem(item);

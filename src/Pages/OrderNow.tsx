@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/OrderNow.scss";
 import { Button } from "../Component/Button/Button";
-import useProductStore from "../Store/ProductStore";
+import persistedUseProductStore from "../Store/ProductStore";
 import { Product } from "../Types/ProductsInterface";
 import { BsCheckCircle } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
@@ -17,7 +17,7 @@ enum PaymentOptionField {
 
 const OrderNow: React.FC = () => {
   // store
-  const { cartItemsArray, handleClearCart } = useProductStore();
+  const { cartItemsArray, handleClearCart } = persistedUseProductStore();
 
   // Variables
   let total = 0;

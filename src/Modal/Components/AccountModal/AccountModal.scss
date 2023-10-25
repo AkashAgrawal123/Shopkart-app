@@ -9,6 +9,16 @@ $selector: ".#{$name}";
     border-radius: 8px;
     border: 1px solid #e4e4e4;
     padding: 30px;
+    right: 8px;
+    top: 120px;
+
+    @media (min-width: 1440px) {
+      right: 48px;
+    }
+
+    @media (min-width: 1900px) {
+      right: 13%;
+    }
 
     &--profile {
       &-text {

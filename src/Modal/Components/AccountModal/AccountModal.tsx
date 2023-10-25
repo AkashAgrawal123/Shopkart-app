@@ -4,7 +4,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { useAuth } from "../../../Contexts/AuthContext";
 import { useSnackbar } from "../../../Contexts/SnackbarProvider";
 import { useNavigate } from "react-router-dom";
-import useProductStore from "../../../Store/ProductStore";
+import persistedUseProductStore from "../../../Store/ProductStore";
 
 interface AccountModalProps {
   onClose: () => void;
@@ -17,8 +17,8 @@ const AccountModal: React.FC<AccountModalProps> = ({ onClose, navRef }) => {
   const accountModalRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
 
-  const firstName = useProductStore((state) => state.firstName);
-  const lastName = useProductStore((state) => state.lastName);
+  const firstName = persistedUseProductStore((state) => state.firstName);
+  const lastName = persistedUseProductStore((state) => state.lastName);
 
   // hooks
   const { currentUser, logout } = useAuth();

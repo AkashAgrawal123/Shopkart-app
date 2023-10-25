@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Button } from "react-bootstrap";
-import useProductStore from "../Store/ProductStore";
+import persistedUseProductStore from "../Store/ProductStore";
 import Star from "../Component/Star/Star";
 import "../styles/ProductDetail.scss";
 import { CiDeliveryTruck } from "react-icons/ci";
@@ -24,7 +24,7 @@ const ProductDetail = () => {
     handleAddToCart,
     handleBuyNow,
     fetchProducts,
-  } = useProductStore();
+  } = persistedUseProductStore();
 
   const handleAddItemToCart = (product: any) => {
     handleAddToCart(product);
