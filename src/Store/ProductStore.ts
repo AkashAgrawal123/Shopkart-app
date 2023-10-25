@@ -22,7 +22,7 @@ interface ProductStore {
   handleOnBlur: () => void;
   handleClearCart: () => void;
   handleHeartClick: (id: number, cartItem: Product) => void;
-  handleRemoveHeartClick: (cartItem: Product) => void;
+  // handleRemoveHeartClick: (cartItem: Product) => void;
   handleModalFilter: (modalFilter: string) => void;
   wishlistItemsArray: [];
   purchaseItemArray: [];
