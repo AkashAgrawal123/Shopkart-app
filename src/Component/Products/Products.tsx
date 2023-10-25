@@ -119,7 +119,7 @@ const Products = () => {
           (filter: any, index: number) => ({
             ...filter,
             isActive: index === 0,
-          })
+          }),
         );
         setProductFilter(filtersWithDefaultActive);
         // setIsLoading(false);

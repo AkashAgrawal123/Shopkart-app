@@ -55,7 +55,7 @@ const LoginPage = () => {
   // password visibility
   const handleClickShowPassword = () => setShowPassword((show) => !show);
   const handleMouseDownPassword = (
-    event: React.MouseEvent<HTMLButtonElement>
+    event: React.MouseEvent<HTMLButtonElement>,
   ) => {
     event.preventDefault();
   };
@@ -91,14 +91,14 @@ const LoginPage = () => {
                   if (emailRef.current && passwordRef.current) {
                     await login(
                       emailRef.current.value,
-                      passwordRef.current.value
+                      passwordRef.current.value,
                     );
 
                     if (values.rememberMe) {
                       setRememberMeCookies(
                         values.email,
                         values.password,
-                        values.rememberMe
+                        values.rememberMe,
                       );
                     } else {
                       removeCookie("rememberEmail");

@@ -2,119 +2,119 @@ $name: wishlist;
 $selector: ".#{$name}";
 
 #{$selector} {
-    padding-bottom: 40px;
-    background-color: #eceff1;
+  padding-bottom: 40px;
+  background-color: #eceff1;
 
-    &__heading {
-        font-size: 28px;
+  &__heading {
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0;
+    line-height: 100%;
+    text-align: center;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 21px;
+    row-gap: 40px;
+
+    @media only screen and (min-width: 1440px) {
+      column-gap: 40px;
+    }
+
+    &--item {
+      grid-column: span 3;
+
+      &-image {
+        position: relative;
+      }
+
+      &-images {
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1);
+        height: 290px;
+        width: 290px;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+
+      &-heading {
+        margin: 16px 4px 0;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &-name,
+      &-price {
+        font-size: 16px;
         font-weight: 700;
-        padding-top: 40px;
-        margin-bottom: 40px;
-        margin-left: 0;
-        line-height: 100%;
-        text-align: center;
+      }
+
+      &-description {
+        margin-top: 8px;
+
+        &__text {
+          font-size: 12px;
+        }
+      }
+
+      &-rating {
+        margin-top: 8px;
+        margin-left: 4px;
+      }
+
+      &-button {
+        margin-top: 8px;
+        margin-left: 4px;
+
+        &__addToCart {
+          border: 1px solid #013d29;
+          padding: 4px 16px;
+          border-radius: 30px;
+          font-size: 18px;
+
+          &:hover {
+            background-color: #013d29;
+            color: #ffffff;
+          }
+        }
+      }
     }
 
-    &__list {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        column-gap: 21px;
-        row-gap: 40px;
+    &--heart {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      padding: 10px;
+      cursor: pointer;
+      z-index: 1;
 
-        @media only screen and (min-width: 1440px) {
-            column-gap: 40px;
-        }
-
-        &--item {
-            grid-column: span 3;
-
-            &-image {
-                position: relative;
-            }
-
-            &-images {
-                transition: transform 0.3s ease-in-out;
-                transform: scale(1);
-                height: 290px;
-                width: 290px;
-
-                &:hover {
-                    transform: scale(1.2);
-                }
-            }
-
-            &-heading {
-                margin: 16px 4px 0;
-                display: flex;
-                justify-content: space-between;
-            }
-
-            &-name,
-            &-price {
-                font-size: 16px;
-                font-weight: 700;
-            }
-
-            &-description {
-                margin-top: 8px;
-
-                &__text {
-                    font-size: 12px;
-                }
-            }
-
-            &-rating {
-                margin-top: 8px;
-                margin-left: 4px;
-            }
-
-            &-button {
-                margin-top: 8px;
-                margin-left: 4px;
-
-                &__addToCart {
-                    border: 1px solid #013d29;
-                    padding: 4px 16px;
-                    border-radius: 30px;
-                    font-size: 18px;
-
-                    &:hover {
-                        background-color: #013d29;
-                        color: #ffffff;
-                    }
-                }
-            }
-        }
-
-        &--heart {
-            position: absolute;
-            top: 16px;
-            right: 16px;
-            background-color: #ffffff;
-            border-radius: 50%;
-            padding: 10px;
-            cursor: pointer;
-            z-index: 1;
-
-            &-icon__filled {
-                fill: #65c065;
-            }
-        }
-
-        &--heading-no-items {
-            font-size: 48px;
-            font-weight: 700;
-            margin-top: 32px;
-        }
+      &-icon__filled {
+        fill: #65c065;
+      }
     }
+
+    &--heading-no-items {
+      font-size: 48px;
+      font-weight: 700;
+      margin-top: 32px;
+    }
+  }
 }
 
 .image-container {
-    width: 290px;
-    height: auto;
-    overflow: hidden;
+  width: 290px;
+  height: auto;
+  overflow: hidden;
 }
 
 .no-item {
-    display: block;
+  display: block;
 }

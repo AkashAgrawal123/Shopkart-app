@@ -2,100 +2,99 @@ $name: contact__banner;
 $selector: ".#{$name}";
 
 .container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 #{$selector} {
-    background-color: #013d29;
+  background-color: #013d29;
 
-    &--phone-number {
-        display: flex;
-        font-size: 12px;
+  &--phone-number {
+    display: flex;
+    font-size: 12px;
+  }
+
+  &--icon {
+    color: #ffffff;
+  }
+
+  &--number {
+    color: #ffffff;
+    margin-left: 8px;
+  }
+
+  &--text {
+    display: flex;
+
+    &-heading {
+      color: #ffffff;
     }
+  }
 
-    &--icon {
-        color: #ffffff;
-    }
+  &--lang-location {
+    gap: 16px;
+  }
 
-    &--number {
-        color: #ffffff;
-        margin-left: 8px;
-    }
+  &--link-text {
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    border-left: 1px solid #ffffff;
+    margin-left: 16px;
+    padding-left: 16px;
+    align-items: center;
+  }
 
-    &--text {
-        display: flex;
+  &--language-selector {
+    min-width: 100px;
+  }
 
-        &-heading {
-            color: #ffffff;
+  &--location-selector {
+    min-width: 123px;
+  }
+
+  &--language-selector,
+  &--location-selector {
+    .react-select {
+      &__control {
+        background: transparent;
+        border: 0;
+        outline: none;
+        box-shadow: none;
+      }
+
+      &__indicator-separator {
+        display: none;
+      }
+
+      &__dropdown-indicator {
+        color: #fff;
+
+        &:hover {
+          color: #fff;
         }
+      }
+
+      &__single-value {
+        color: #fff;
+      }
+
+      &__value-container {
+        padding: 0;
+      }
+
+      &__indicator {
+        padding: 0;
+      }
     }
-
-    &--lang-location {
-        gap: 16px;
-    }
-
-    &--link-text {
-        display: flex;
-        text-decoration: none;
-        color: #ffffff;
-        border-left: 1px solid #ffffff;
-        margin-left: 16px;
-        padding-left: 16px;
-        align-items: center;
-    }
-
-    &--language-selector {
-        min-width: 100px;
-    }
-
-    &--location-selector {
-        min-width: 123px;
-    }
-
-    &--language-selector,
-    &--location-selector {
-
-        .react-select {
-            &__control {
-                background: transparent;
-                border: 0;
-                outline: none;
-                box-shadow: none;
-            }
-
-            &__indicator-separator {
-                display: none;
-            }
-
-            &__dropdown-indicator {
-                color: #fff;
-
-                &:hover {
-                    color: #fff;
-                }
-            }
-
-            &__single-value {
-                color: #fff;
-            }
-
-            &__value-container {
-                padding: 0;
-            }
-
-            &__indicator {
-                padding: 0;
-            }
-        }
-    }
+  }
 }
 
 .react-select__menu {
-    position: relative;
-    right: -12px;
-    z-index: 999999999;
-    background-color: red;
-    @media only screen and (min-width: 1440px) {
-        right: 10px;
-    }
+  position: relative;
+  right: -12px;
+  z-index: 999999999;
+  background-color: red;
+  @media only screen and (min-width: 1440px) {
+    right: 10px;
+  }
 }

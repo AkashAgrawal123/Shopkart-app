@@ -51,7 +51,7 @@ const SignUp = () => {
   const handleClickShowConfirmPassword = () =>
     setShowConfirmPassword((show) => !show);
   const handleMouseDownPassword = (
-    event: React.MouseEvent<HTMLButtonElement>
+    event: React.MouseEvent<HTMLButtonElement>,
   ) => {
     event.preventDefault();
   };
@@ -82,12 +82,12 @@ const SignUp = () => {
                   ) {
                     await signup(
                       emailRef.current.value,
-                      passwordRef.current.value
+                      passwordRef.current.value,
                     );
 
                     useProductStore.getState().setFirstName(values.firstName);
                     useProductStore.getState().setLastName(values.lastName);
-                    
+
                     navigate("/");
                     snackbar.success("Sign up successfully");
                   }

@@ -37,7 +37,7 @@ export const getCookie = (name: string): string | undefined => {
 export const setCookie = (
   name: string,
   value: string,
-  options: Cookies.CookieAttributes = {}
+  options: Cookies.CookieAttributes = {},
 ): void => {
   Cookies.set(name, value, options);
 };
@@ -49,7 +49,7 @@ export const removeCookie = (name: string): void => {
 export const setRememberMeCookies = (
   email: string,
   password: string,
-  rememberMe: boolean
+  rememberMe: boolean,
 ): void => {
   console.log("cookie should add");
 

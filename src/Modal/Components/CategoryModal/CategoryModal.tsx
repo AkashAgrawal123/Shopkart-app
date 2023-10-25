@@ -38,12 +38,12 @@ const CategoryModal: React.FC<CategoryModalProps> = ({ onClose, navRef }) => {
     handleModalFilter(category);
 
     const filtersTagElements = document.querySelectorAll(
-      ".product__wrapper--filters-tag"
+      ".product__wrapper--filters-tag",
     );
 
     filtersTagElements.forEach((filtersTagElement) => {
       const filtersTextElement = filtersTagElement.querySelector(
-        ".product__wrapper--filters-text"
+        ".product__wrapper--filters-text",
       );
 
       if (filtersTextElement) {
@@ -99,13 +99,8 @@ const CategoryModal: React.FC<CategoryModalProps> = ({ onClose, navRef }) => {
           {productTypeError != "" && <h2>{productTypeError}</h2>}
           <ul className="category-modal__dropdown--list">
             {productType.map((product) => {
-              const {
-                id,
-                image,
-                name,
-                noOfItem,
-                altText,
-              }: productTypeData = product;
+              const { id, image, name, noOfItem, altText }: productTypeData =
+                product;
 
               return (
                 <li key={id} className="category-modal__dropdown--list-item">
