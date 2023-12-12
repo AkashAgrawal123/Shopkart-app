@@ -91,7 +91,7 @@ const ProductDetail = () => {
                 </div>
                 <div className="product__detail--wrapper__right--price">
                   <h2 className="product__detail--wrapper__right--price-emi">
-                    ₹{data.price} or {(data.price / 6).toFixed(2)}/month
+                    ₹{data.price.toFixed(2)} or {(data.price / 6).toFixed(2)}/month
                   </h2>
                   <p className="product__detail--wrapper__right--emi-text">
                     Suggested payments with 6 months special financing

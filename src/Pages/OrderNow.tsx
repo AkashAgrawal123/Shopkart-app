@@ -15,7 +15,7 @@ enum PaymentOptionField {
   creditOrDebitCard = "creditOrDebitCard",
 }
 
-const OrderNow: React.FC = () => {
+const OrderNow = () => {
   // store
   const { cartItemsArray, handleClearCart } = persistedUseProductStore();
 

@@ -33,7 +33,9 @@ const Products = () => {
     handleHeartClick,
   } = persistedUseProductStore();
   const products = persistedUseProductStore((state) => state.products);
-  const fetchProducts = persistedUseProductStore((state) => state.fetchProducts);
+  const fetchProducts = persistedUseProductStore(
+    (state) => state.fetchProducts,
+  );
 
   const handleHeartIconClick = (id: number, product: any) => {
     handleHeartClick(id, product);
@@ -185,9 +187,19 @@ const Products = () => {
                       </li>
                       <li
                         className="product__wrapper--dropdown-item"
-                        onClick={() => handleDropdownItemClick("Price")}
+                        onClick={() =>
+                          handleDropdownItemClick("Price low to high")
+                        }
                       >
-                        Price
+                        Price(Low to High)
+                      </li>
+                      <li
+                        className="product__wrapper--dropdown-item"
+                        onClick={() =>
+                          handleDropdownItemClick("Price high to low")
+                        }
+                      >
+                        Price(High to Low)
                       </li>
                       <li
                         className="product__wrapper--dropdown-item"

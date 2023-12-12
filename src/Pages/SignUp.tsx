@@ -85,8 +85,12 @@ const SignUp = () => {
                       passwordRef.current.value,
                     );
 
-                    persistedUseProductStore.getState().setFirstName(values.firstName);
-                    persistedUseProductStore.getState().setLastName(values.lastName);
+                    persistedUseProductStore
+                      .getState()
+                      .setFirstName(values.firstName);
+                    persistedUseProductStore
+                      .getState()
+                      .setLastName(values.lastName);
 
                     navigate("/");
                     snackbar.success("Sign up successfully");
