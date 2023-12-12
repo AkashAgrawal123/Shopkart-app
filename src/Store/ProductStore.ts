@@ -4,9 +4,7 @@ import { persist } from "zustand/middleware";
 import { Product } from "../Types/ProductsInterface";
 
 interface ProductStore {
-  // cartItemsArray: [];
   cartItemsArray: Product[];
-  // cart: [];
   cart: Product[];
   products: Product[];
   allProducts: Product[];
