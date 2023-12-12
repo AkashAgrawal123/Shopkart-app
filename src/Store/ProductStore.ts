@@ -33,7 +33,7 @@ interface ProductStore {
 }
 
 const useProductStore: StateCreator<ProductStore> = (
-  items: SetState<ProductStore>,
+  items: SetState<ProductStore>
 ) => ({
   cart: [],
   products: [],
@@ -91,37 +91,37 @@ const useProductStore: StateCreator<ProductStore> = (
     if (modalFilter === "Furniture") {
       items((state) => ({
         products: state.allProducts.filter(
-          (modalProduct) => modalProduct.subCategory === "Furniture",
+          (modalProduct) => modalProduct.subCategory === "Furniture"
         ),
       }));
     } else if (modalFilter === "Fashion") {
       items((state) => ({
         products: state.allProducts.filter(
-          (modalProduct) => modalProduct.subCategory === "Fashion",
+          (modalProduct) => modalProduct.subCategory === "Fashion"
         ),
       }));
     } else if (modalFilter === "Sneakers") {
       items((state) => ({
         products: state.allProducts.filter(
-          (modalProduct) => modalProduct.subCategory === "Sneakers",
+          (modalProduct) => modalProduct.subCategory === "Sneakers"
         ),
       }));
     } else if (modalFilter === "gadgets") {
       items((state) => ({
         products: state.allProducts.filter(
-          (modalProduct) => modalProduct.subCategory === "gadgets",
+          (modalProduct) => modalProduct.subCategory === "gadgets"
         ),
       }));
     } else if (modalFilter === "Fitness") {
       items((state) => ({
         products: state.allProducts.filter(
-          (modalProduct) => modalProduct.subCategory === "Fitness",
+          (modalProduct) => modalProduct.subCategory === "Fitness"
         ),
       }));
     } else if (modalFilter === "Education") {
       items((state) => ({
         products: state.allProducts.filter(
-          (modalProduct) => modalProduct.subCategory === "Education",
+          (modalProduct) => modalProduct.subCategory === "Education"
         ),
       }));
     }
@@ -134,55 +134,55 @@ const useProductStore: StateCreator<ProductStore> = (
     } else if (filter === "Gadgets") {
       items((state) => ({
         products: state.allProducts.filter(
-          (product) => product.subCategory === "gadgets",
+          (product) => product.subCategory === "gadgets"
         ),
       }));
     } else if (filter === "Toys") {
       items((state) => ({
         products: state.allProducts.filter(
-          (product) => product.subCategory === "Toys",
+          (product) => product.subCategory === "Toys"
         ),
       }));
     } else if (filter === "Education") {
       items((state) => ({
         products: state.allProducts.filter(
-          (product) => product.subCategory === "Education",
+          (product) => product.subCategory === "Education"
         ),
       }));
     } else if (filter === "Beauty") {
       items((state) => ({
         products: state.allProducts.filter(
-          (product) => product.subCategory === "Beauty",
+          (product) => product.subCategory === "Beauty"
         ),
       }));
     } else if (filter === "Fitness") {
       items((state) => ({
         products: state.allProducts.filter(
-          (product) => product.subCategory === "Fitness",
+          (product) => product.subCategory === "Fitness"
         ),
       }));
     } else if (filter === "Furniture") {
       items((state) => ({
         products: state.allProducts.filter(
-          (product) => product.subCategory === "Furniture",
+          (product) => product.subCategory === "Furniture"
         ),
       }));
     } else if (filter === "Sneakers") {
       items((state) => ({
         products: state.allProducts.filter(
-          (product) => product.subCategory === "Sneakers",
+          (product) => product.subCategory === "Sneakers"
         ),
       }));
     } else if (filter === "Fashion") {
       items((state) => ({
         products: state.allProducts.filter(
-          (product) => product.subCategory === "Fashion",
+          (product) => product.subCategory === "Fashion"
         ),
       }));
     } else {
       items((state) => ({
         products: state.allProducts.filter(
-          (product) => product.subCategory === filter,
+          (product) => product.subCategory === filter
         ),
       }));
     }
@@ -199,7 +199,7 @@ const useProductStore: StateCreator<ProductStore> = (
               quantity: cartItem.quantity + 1,
               price: cartItem.price + cartItem.initialPrice,
             }
-          : item,
+          : item
       ),
       cart: state.cart.map((item: Product) =>
         item.id === cartItem.id
@@ -208,7 +208,7 @@ const useProductStore: StateCreator<ProductStore> = (
               quantity: cartItem.quantity + 1,
               price: cartItem.price + cartItem.initialPrice,
             }
-          : item,
+          : item
       ),
     }));
   },
@@ -216,20 +216,20 @@ const useProductStore: StateCreator<ProductStore> = (
     items((state) => ({
       ...state,
       cartItemsArray: state.cartItemsArray.filter(
-        (item: Product) => item.id !== cartItem.id,
+        (item: Product) => item.id !== cartItem.id
       ),
     }));
   },
   handleAddToCart: (cartItem: Product) => {
     items((state) => {
       const existingCartItem = state.cartItemsArray.find(
-        (item: Product) => item.id === cartItem.id,
+        (item: Product) => item.id === cartItem.id
       );
       if (existingCartItem) {
         const updatedCartItems = state.cartItemsArray.map((item: Product) =>
           item.id === cartItem.id
             ? { ...item, quantity: item.quantity + 1 }
-            : item,
+            : item
         );
         return { ...state, cartItemsArray: updatedCartItems };
       } else {
@@ -243,13 +243,13 @@ const useProductStore: StateCreator<ProductStore> = (
   handleBuyNow: (cartItem: Product) => {
     items((state) => {
       const existingCartItem = state.cartItemsArray.find(
-        (item: Product) => item.id === cartItem.id,
+        (item: Product) => item.id === cartItem.id
       );
       if (existingCartItem) {
         const updatedCartItems = state.cartItemsArray.map((item: Product) =>
           item.id === cartItem.id
             ? { ...item, quantity: item.quantity + 1 }
-            : item,
+            : item
         );
         return { ...state, cartItemsArray: updatedCartItems };
       } else {
@@ -269,7 +269,7 @@ const useProductStore: StateCreator<ProductStore> = (
               quantity: cartItem.quantity - 1,
               price: cartItem.price - cartItem.initialPrice,
             }
-          : item,
+          : item
       ),
       cart: data.cart.map((item: Product) =>
         item.id === cartItem.id
@@ -278,14 +278,14 @@ const useProductStore: StateCreator<ProductStore> = (
               quantity: cartItem.quantity - 1,
               price: cartItem.price - cartItem.initialPrice,
             }
-          : item,
+          : item
       ),
     }));
   },
   handleOnSubmit: (search: string) => {
     items((state) => {
       const filteredProducts = state.allProducts.filter((item: Product) =>
-        item.name.toLowerCase().includes(search.toLowerCase()),
+        item.name.toLowerCase().includes(search.toLowerCase())
       );
       return {
         ...state,
@@ -303,7 +303,7 @@ const useProductStore: StateCreator<ProductStore> = (
     items(() => ({ cartItemsArray: [] }));
   },
   handleHeartClick: (id: number) => {
-    items((state) => {
+    items((state: any) => {
       const updatedProducts = state.products.map((product: Product) => {
         if (product.id === id) {
           return {
@@ -315,17 +315,17 @@ const useProductStore: StateCreator<ProductStore> = (
       });
 
       const existingHeartItem = state.wishlistItemsArray.find(
-        (item: Product) => item.id === id,
+        (item: Product) => item.id === id
       );
 
       let updatedHeartItems;
       if (existingHeartItem) {
         updatedHeartItems = state.wishlistItemsArray.filter(
-          (item: Product) => item.id !== id,
+          (item: Product) => item.id !== id
         );
       } else {
         const productToAdd = state.products.find(
-          (product: Product) => product.id === id,
+          (product: Product) => product.id === id
         );
         if (productToAdd) {
           updatedHeartItems = [
