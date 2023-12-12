@@ -1,4 +1,3 @@
-import React from "react";
 import "./HeroBanner.scss";
 import "../../styles/globalStyle.scss";
 // import { Outlet } from "react-router-dom";
