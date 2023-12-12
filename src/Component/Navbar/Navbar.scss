@@ -78,8 +78,8 @@ $selector: ".#{$name}";
               z-index: 9;
 
               @media (min-width: 1283px) {
-                right: 0;
-                left: -30px;
+                // right: 0;
+                left: -60px;
               }
             }
 

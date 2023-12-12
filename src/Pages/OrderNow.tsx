@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/OrderNow.scss";
 import { Button } from "../Component/Button/Button";
-import useProductStore from "../Store/ProductStore";
+import persistedUseProductStore from "../Store/ProductStore";
 import { Product } from "../Types/ProductsInterface";
 import { BsCheckCircle } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
@@ -15,9 +15,9 @@ enum PaymentOptionField {
   creditOrDebitCard = "creditOrDebitCard",
 }
 
-const OrderNow: React.FC = () => {
+const OrderNow = () => {
   // store
-  const { cartItemsArray, handleClearCart } = useProductStore();
+  const { cartItemsArray, handleClearCart } = persistedUseProductStore();
 
   // Variables
   let total = 0;

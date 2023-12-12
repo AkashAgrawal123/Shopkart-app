@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BiSearch } from "react-icons/bi";
-import useProductStore from "../../Store/ProductStore";
+import persistedUseProductStore from "../../Store/ProductStore";
 import "./Search.scss";
 
 const Search = () => {
@@ -8,7 +8,7 @@ const Search = () => {
   const [searchValue, setSearchValue] = useState("");
 
   // store
-  const { handleOnSubmit, handleOnBlur } = useProductStore();
+  const { handleOnSubmit, handleOnBlur } = persistedUseProductStore();
 
   // functions
   const handleSearchSubmit = (e: any) => {

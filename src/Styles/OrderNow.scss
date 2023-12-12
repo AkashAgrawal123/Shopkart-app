@@ -14,6 +14,8 @@ $selector: ".#{$name}";
     }
 
     &--left-box {
+      width: calc(100% - 440px);
+
       &__item-content {
         display: flex;
         flex-direction: column;

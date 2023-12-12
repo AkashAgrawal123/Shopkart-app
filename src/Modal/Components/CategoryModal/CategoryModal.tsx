@@ -3,7 +3,7 @@ import axios from "axios";
 import "./CategoryModal.scss";
 import lozad from "lozad";
 import { productTypeData } from "../../../Types/ProductsInterface";
-import useProductStore from "../../../Store/ProductStore";
+import persistedUseProductStore from "../../../Store/ProductStore";
 import React from "react";
 
 interface CategoryModalProps {
@@ -16,7 +16,7 @@ const CategoryModal: React.FC<CategoryModalProps> = ({ onClose, navRef }) => {
   const categoryModalRef = useRef<HTMLDivElement>(null);
 
   // store objects
-  const { handleModalFilter } = useProductStore();
+  const { handleModalFilter } = persistedUseProductStore();
 
   // hooks;
   const [productType, setProductType] = useState([]);

@@ -110,11 +110,50 @@ $selector: ".#{$name}";
 }
 
 .image-container {
-  width: 290px;
-  height: auto;
+  // width: 290px;
+  // height: auto;
   overflow: hidden;
 }
 
-.no-item {
-  display: block;
+// .no-item {
+//   display: block;
+// }
+
+.no-items {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 0;
+
+    &--text {
+      font-size: 48px;
+      font-weight: 700;
+      margin: 24px;
+    }
+
+    &--button {
+      background-color: #013d29;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 24px;
+      font-size: 20px;
+      border-radius: 30px;
+      border: 1px solid #013d29;
+
+      &:hover {
+        background-color: transparent;
+        color: #013d29;
+        border: 1px solid #013d29;
+      }
+
+      &-icon {
+        margin-right: 8px;
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
 }

@@ -8,7 +8,7 @@ import { Button } from "../Button/Button";
 import lozad from "lozad";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { ProductFilters, Product } from "../../Types/ProductsInterface";
-import useProductStore from "../../Store/ProductStore";
+import persistedUseProductStore from "../../Store/ProductStore";
 import { NavLink } from "react-router-dom";
 
 // snackbar
@@ -31,9 +31,11 @@ const Products = () => {
     handleProductDetail,
     handleAddToCart,
     handleHeartClick,
-  } = useProductStore();
-  const products = useProductStore((state) => state.products);
-  const fetchProducts = useProductStore((state) => state.fetchProducts);
+  } = persistedUseProductStore();
+  const products = persistedUseProductStore((state) => state.products);
+  const fetchProducts = persistedUseProductStore(
+    (state) => state.fetchProducts,
+  );
 
   const handleHeartIconClick = (id: number, product: any) => {
     handleHeartClick(id, product);
@@ -185,9 +187,19 @@ const Products = () => {
                       </li>
                       <li
                         className="product__wrapper--dropdown-item"
-                        onClick={() => handleDropdownItemClick("Price")}
+                        onClick={() =>
+                          handleDropdownItemClick("Price low to high")
+                        }
                       >
-                        Price
+                        Price(Low to High)
+                      </li>
+                      <li
+                        className="product__wrapper--dropdown-item"
+                        onClick={() =>
+                          handleDropdownItemClick("Price high to low")
+                        }
+                      >
+                        Price(High to Low)
                       </li>
                       <li
                         className="product__wrapper--dropdown-item"

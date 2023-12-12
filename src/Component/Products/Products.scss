@@ -67,8 +67,17 @@ $selector: ".#{$name}";
       // top: 200%;
       border-radius: 8px;
       z-index: 9999;
-      width: 100px;
+      // width: 100px;
       background-color: #ffffff;
+      right: 16px;
+
+      @media only screen and (min-width: 1440px) {
+        right: 8%;
+      }
+
+      @media only screen and (min-width: 1900px) {
+        right: 16%;
+      }
     }
 
     &--dropdown-list {
@@ -81,6 +90,7 @@ $selector: ".#{$name}";
       padding: 10px;
       border-bottom: 1px solid #c5c5c5;
       cursor: pointer;
+      font-size: 16px;
 
       &:last-child {
         border-bottom: 0;
@@ -116,8 +126,8 @@ $selector: ".#{$name}";
       &-images {
         transition: transform 0.3s ease-in-out;
         transform: scale(1);
-        // height: 290px;
-        // width: 290px;
+        height: 290px;
+        width: 290px;
 
         &:hover {
           transform: scale(1.2);

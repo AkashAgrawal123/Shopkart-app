@@ -4,7 +4,7 @@ import "../../styles/globalStyle.scss";
 // import { Outlet } from "react-router-dom";
 // import Products from "../Products/Products";
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <>
       <section className="homepage__hero">
