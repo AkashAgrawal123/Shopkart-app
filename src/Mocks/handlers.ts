@@ -1,6 +1,6 @@
 import { rest } from "msw";
 import { productMockData } from "../Data/productMock";
-import {productDataType, productFilterData} from '../Data/productType';
+import { productDataType, productFilterData } from "../Data/productType";
 
 export const handlers = [
   rest.get("/products", (req, res, ctx) => {

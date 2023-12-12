@@ -6,7 +6,7 @@ import "../../styles/globalStyle.scss";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { useState, useRef } from "react";
 import CategoryModal from "../../Modal/Components/CategoryModal/CategoryModal";
-import useProductStore from "../../Store/ProductStore";
+import persistedUseProductStore from "../../Store/ProductStore";
 import Search from "../Search/Search";
 import AccountModal from "../../Modal/Components/AccountModal/AccountModal";
 
@@ -17,7 +17,7 @@ const Navbar = () => {
   const navRef = useRef<HTMLDivElement>(null);
 
   // store objects
-  const { cartItemsArray } = useProductStore();
+  const { cartItemsArray } = persistedUseProductStore();
 
   // methods
   const handleOpenCategoryModal = () => {

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Button } from "react-bootstrap";
-import useProductStore from "../Store/ProductStore";
+import persistedUseProductStore from "../Store/ProductStore";
 import Star from "../Component/Star/Star";
 import "../styles/ProductDetail.scss";
 import { CiDeliveryTruck } from "react-icons/ci";
@@ -24,7 +24,7 @@ const ProductDetail = () => {
     handleAddToCart,
     handleBuyNow,
     fetchProducts,
-  } = useProductStore();
+  } = persistedUseProductStore();
 
   const handleAddItemToCart = (product: any) => {
     handleAddToCart(product);
@@ -91,7 +91,7 @@ const ProductDetail = () => {
                 </div>
                 <div className="product__detail--wrapper__right--price">
                   <h2 className="product__detail--wrapper__right--price-emi">
-                    ₹{data.price} or {(data.price / 6).toFixed(2)}/month
+                    ₹{data.price.toFixed(2)} or {(data.price / 6).toFixed(2)}/month
                   </h2>
                   <p className="product__detail--wrapper__right--emi-text">
                     Suggested payments with 6 months special financing

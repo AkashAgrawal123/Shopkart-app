@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/OrderNow.scss";
 import { Button } from "../Component/Button/Button";
-import useProductStore from "../Store/ProductStore";
+import persistedUseProductStore from "../Store/ProductStore";
 import { Product } from "../Types/ProductsInterface";
 import { BsCheckCircle } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
@@ -15,19 +15,17 @@ enum PaymentOptionField {
   creditOrDebitCard = "creditOrDebitCard",
 }
 
-const OrderNow: React.FC = () => {
+const OrderNow = () => {
   // store
-  const { cartItemsArray, handleClearCart } = useProductStore();
+  const { cartItemsArray, handleClearCart } = persistedUseProductStore();
 
   // Variables
   let total = 0;
   let quantityTotal = 0;
 
   // hooks
-  const [
-    selectedOption,
-    setSelectedOption,
-  ] = useState<PaymentOptionField | null>(null);
+  const [selectedOption, setSelectedOption] =
+    useState<PaymentOptionField | null>(null);
 
   // snackbar
   const snackbar = useSnackbar();
@@ -51,8 +49,7 @@ const OrderNow: React.FC = () => {
   const handleItemPurchased = () => {
     setIsSuccessPopUp(true);
     snackbar.success("Item purchased");
-
-  }
+  };
   // coupon code function
   const handleApplyCouponCode = () => {
     if (lowerCaseCouponCode === couponCodeText) {
@@ -422,7 +419,7 @@ const OrderNow: React.FC = () => {
                         }
                         onChange={() =>
                           handleOptionChange(
-                            PaymentOptionField.creditOrDebitCard
+                            PaymentOptionField.creditOrDebitCard,
                           )
                         }
                         required

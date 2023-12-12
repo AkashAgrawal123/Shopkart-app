@@ -22,7 +22,7 @@ const SnackbarProvider = ({ children }: SnackbarProviderProps) => {
 
   const handleClose = (
     _event: React.SyntheticEvent | React.MouseEvent,
-    reason?: string
+    reason?: string,
   ) => {
     if (reason === "clickway") {
       return;

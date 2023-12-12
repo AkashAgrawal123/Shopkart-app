@@ -17,7 +17,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 5,
@@ -97,7 +97,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 6,
@@ -117,7 +117,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 7,
@@ -136,7 +136,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 8,
@@ -156,7 +156,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 9,
@@ -175,7 +175,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 10,
@@ -195,7 +195,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 11,
@@ -215,7 +215,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 12,
@@ -234,7 +234,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 13,
@@ -254,7 +254,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 14,
@@ -274,7 +274,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 15,
@@ -294,7 +294,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 16,
@@ -314,7 +314,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 17,
@@ -334,7 +334,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 18,
@@ -354,7 +354,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 19,
@@ -374,7 +374,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 20,
@@ -394,7 +394,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 21,
@@ -414,7 +414,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 22,
@@ -434,7 +434,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 23,
@@ -454,7 +454,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 24,
@@ -474,7 +474,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 25,
@@ -494,7 +494,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 26,
@@ -514,7 +514,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 27,
@@ -534,7 +534,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 28,
@@ -554,7 +554,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 29,
@@ -574,7 +574,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 30,
@@ -594,7 +594,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 31,
@@ -614,7 +614,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 32,
@@ -634,7 +634,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 33,
@@ -654,7 +654,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 34,
@@ -674,7 +674,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 35,
@@ -693,7 +693,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 36,
@@ -712,7 +712,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 37,
@@ -731,7 +731,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 38,
@@ -750,7 +750,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 39,
@@ -770,7 +770,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
 
   {
@@ -791,7 +791,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
 
   {
@@ -811,7 +811,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 42,
@@ -831,7 +831,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 43,
@@ -851,7 +851,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 44,
@@ -871,7 +871,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 45,
@@ -890,7 +890,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 46,
@@ -910,7 +910,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 47,
@@ -930,7 +930,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 48,
@@ -950,7 +950,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 49,
@@ -970,7 +970,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 50,
@@ -990,7 +990,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 51,
@@ -1009,7 +1009,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 52,
@@ -1028,7 +1028,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 53,
@@ -1047,7 +1047,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 54,
@@ -1066,7 +1066,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 55,
@@ -1085,7 +1085,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "gadgets",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 56,
@@ -1104,7 +1104,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Beauty",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 57,
@@ -1123,7 +1123,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Beauty",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 58,
@@ -1142,7 +1142,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Beauty",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 59,
@@ -1162,7 +1162,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Beauty",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 60,
@@ -1181,7 +1181,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Beauty",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 61,
@@ -1200,7 +1200,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Beauty",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 62,
@@ -1219,7 +1219,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Beauty",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 63,
@@ -1238,7 +1238,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Beauty",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 64,
@@ -1257,7 +1257,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Beauty",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 65,
@@ -1276,7 +1276,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Beauty",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 66,
@@ -1295,7 +1295,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Education",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 67,
@@ -1314,7 +1314,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Education",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 68,
@@ -1333,7 +1333,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Education",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 69,
@@ -1352,7 +1352,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Education",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 70,
@@ -1371,7 +1371,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Education",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 71,
@@ -1390,7 +1390,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Education",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 72,
@@ -1409,7 +1409,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Education",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 73,
@@ -1428,7 +1428,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Education",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 74,
@@ -1447,7 +1447,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Education",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 75,
@@ -1466,7 +1466,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Education",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 76,
@@ -1485,7 +1485,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fashion",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 77,
@@ -1504,7 +1504,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fashion",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 78,
@@ -1523,7 +1523,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fashion",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 79,
@@ -1542,7 +1542,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fashion",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 80,
@@ -1561,7 +1561,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fashion",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 81,
@@ -1580,7 +1580,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fashion",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 82,
@@ -1599,7 +1599,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fashion",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 83,
@@ -1618,7 +1618,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fashion",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 84,
@@ -1637,7 +1637,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fashion",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 85,
@@ -1656,7 +1656,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fashion",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 86,
@@ -1675,7 +1675,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fitness",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 87,
@@ -1694,7 +1694,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fitness",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 88,
@@ -1713,7 +1713,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fitness",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 89,
@@ -1732,7 +1732,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fitness",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 90,
@@ -1751,7 +1751,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fitness",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 91,
@@ -1770,7 +1770,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fitness",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 92,
@@ -1789,7 +1789,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fitness",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 93,
@@ -1808,7 +1808,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fitness",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 94,
@@ -1827,7 +1827,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fitness",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 95,
@@ -1846,7 +1846,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Fitness",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 96,
@@ -1865,7 +1865,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Furniture",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 97,
@@ -1884,7 +1884,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Furniture",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 98,
@@ -1903,7 +1903,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Furniture",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 99,
@@ -1922,7 +1922,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Furniture",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 100,
@@ -1941,7 +1941,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Furniture",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 101,
@@ -1960,7 +1960,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Furniture",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 102,
@@ -1979,7 +1979,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Furniture",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 103,
@@ -1999,7 +1999,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Furniture",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 104,
@@ -2018,7 +2018,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Furniture",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 105,
@@ -2037,7 +2037,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Furniture",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 106,
@@ -2056,7 +2056,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Sneakers",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 107,
@@ -2075,7 +2075,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Sneakers",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 108,
@@ -2094,7 +2094,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Sneakers",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 109,
@@ -2113,7 +2113,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Sneakers",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 110,
@@ -2132,7 +2132,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Sneakers",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 111,
@@ -2151,7 +2151,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Sneakers",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 112,
@@ -2170,7 +2170,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Sneakers",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 113,
@@ -2190,7 +2190,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Sneakers",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 114,
@@ -2209,7 +2209,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Sneakers",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 115,
@@ -2228,7 +2228,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Sneakers",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 116,
@@ -2248,7 +2248,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Toys",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 117,
@@ -2268,7 +2268,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Toys",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 118,
@@ -2288,7 +2288,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Toys",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 119,
@@ -2308,7 +2308,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Toys",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 120,
@@ -2328,7 +2328,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Toys",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 121,
@@ -2348,7 +2348,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Toys",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 122,
@@ -2368,7 +2368,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Toys",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 123,
@@ -2388,7 +2388,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Toys",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 124,
@@ -2408,7 +2408,7 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Toys",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
   {
     id: 125,
@@ -2428,6 +2428,6 @@ export const productMockData = [
     isLiked: false,
     subCategory: "Toys",
     quantity: 1,
-    color: 'Pink',
+    color: "Pink",
   },
 ];
