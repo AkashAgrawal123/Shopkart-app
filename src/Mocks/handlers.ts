@@ -1,18 +1,18 @@
-import { rest } from "msw";
+import { http, HttpResponse } from 'msw';
 import { productMockData } from "../Data/productMock";
 import { productDataType, productFilterData } from "../Data/productType";
 
 export const handlers = [
-  rest.get("/products", (req, res, ctx) => {
-    console.log(req);
-    return res(ctx.status(200), ctx.json(productMockData));
+  http.get("/products", ({ request }) => {
+    console.log(request);
+    return HttpResponse.json(productMockData, { status: 200 });
   }),
-  rest.get("/products/datatype", (req, res, ctx) => {
-    console.log(req);
-    return res(ctx.status(200), ctx.json(productDataType));
+  http.get("/products/datatype", ({ request }) => {
+    console.log(request);
+    return HttpResponse.json(productDataType, { status: 200 });
   }),
-  rest.get("/products/filtertype", (req, res, ctx) => {
-    console.log(req);
-    return res(ctx.status(200), ctx.json(productFilterData));
+  http.get("/products/filtertype", ({ request }) => {
+    console.log(request);
+    return HttpResponse.json(productFilterData, { status: 200 });
   }),
 ];

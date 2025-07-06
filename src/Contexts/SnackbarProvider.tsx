@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from "react";
 import Alert, { AlertColor } from "@mui/material/Alert";
-import Snackbar from "@mui/material/Snackbar";
+import Snackbar, { SnackbarCloseReason } from "@mui/material/Snackbar";
 import { AlertTitle } from "@mui/material";
 
 interface SnackbarContextInterface {
@@ -21,13 +21,17 @@ const SnackbarProvider = ({ children }: SnackbarProviderProps) => {
   const [severity, setSeverity] = useState<AlertColor | undefined>(undefined);
 
   const handleClose = (
-    _event: React.SyntheticEvent | React.MouseEvent,
-    reason?: string,
+    _event: React.SyntheticEvent<any> | Event,
+    reason: SnackbarCloseReason,
   ) => {
-    if (reason === "clickway") {
+    if (reason === "clickaway") {
       return;
     }
 
+    setOpen(false);
+  };
+
+  const handleAlertClose = (_event: React.SyntheticEvent) => {
     setOpen(false);
   };
 
@@ -55,7 +59,7 @@ const SnackbarProvider = ({ children }: SnackbarProviderProps) => {
         autoHideDuration={3000}
         onClose={handleClose}
       >
-        <Alert onClose={handleClose} severity={severity}>
+        <Alert onClose={handleAlertClose} severity={severity}>
           <AlertTitle>{title}</AlertTitle>
           {message}
         </Alert>
